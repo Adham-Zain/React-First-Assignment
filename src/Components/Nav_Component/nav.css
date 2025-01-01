@@ -1,0 +1,27 @@
+.navbar {
+    background-color: #2C3E50;
+    z-index: 99;
+}
+
+.navbar a {
+    color: #fff;
+
+}
+
+.navbar a:hover{
+    color: #1ABC9C;
+}
+
+.navbar a.active {
+    background-color: #1ABC9C;
+    color: #2C3E50;
+    padding: .5rem;
+    transition: .5s;
+}
+
+@media (min-width:1000px) {
+    .navbar {
+
+        height: 7rem;
+    }
+}

@@ -1,0 +1,15 @@
+#about{
+    background-color: #1ABC9C;
+    color: #fff;
+}
+
+#about .header{
+    color: #fff;
+
+    &::before{
+        background-color: #fff  ;
+    }
+    &::after{
+        background-color: #fff  ;
+    }
+}

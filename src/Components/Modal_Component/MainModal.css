@@ -1,0 +1,40 @@
+#mainModal{
+    z-index: 999;
+    background-color: rgba(0, 0, 0, .5);
+    
+    img{
+        width: 100%;
+    }
+    i.close_btn{
+        cursor: pointer;
+        opacity: .7;
+        transition: .5s;
+        &:hover{
+            opacity: 1;
+            transform: scale(1.1);
+        }
+    }
+}
+
+@media (min-width:780px){
+    #mainModal{
+        .content{
+            border-radius: .5rem;
+            width: 75%;
+        }
+        img{
+            width: 75%;
+        }
+    }
+}
+
+.show{
+    transition: .5s;
+    transform: translateY(0%);
+    opacity: 1;
+}
+.hide{
+    transition: .5s;
+    transform: translateY(100%);
+    opacity: 0;
+}

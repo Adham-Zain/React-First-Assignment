@@ -1,0 +1,10 @@
+#contactMe button{
+    background-color: #1ABC9C;
+    transition: .5s;
+    &:focus{
+        background-color:#0a58ca;
+    }
+    &:hover{
+        background-color: #18AD90 !important;
+    }
+}  

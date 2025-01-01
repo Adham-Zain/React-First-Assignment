@@ -1,0 +1,33 @@
+.contact_Info{
+    background-color: #2C3E50;
+
+    .fa-stack{
+        width: 2em;
+        height: 1.5em;
+        margin-left: .3rem;
+    }
+    .fa-circle{
+        color: transparent;
+        border: 2px solid #fff;
+        border-radius: 50%;
+        transition: color  .5s;
+
+    }
+    .fa-stack-1x{
+        font-size: 1.5rem;
+        transition: color  .5s;
+    }
+
+    .fa-stack:hover {
+
+        .fa-circle{
+            color: #fff;
+            border:none;
+        }
+        .fa-stack-1x{
+            color: #2C3E50;
+        }
+
+    }
+
+}
